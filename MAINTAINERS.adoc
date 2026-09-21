@@ -1,31 +1,15 @@
-<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
-# Maintainers
+= MAINTAINERS
 
-## Lead Maintainer
+Owner and maintainer of the-metadatastician
+--------------------------------------------------
 
-**Jonathan D.A. Jewell**
-- GitHub: `@Hyperpolymath`
-- Contact: `jonathan@metadatastician.art`
-- Scope: architecture, governance, metadata policy, release oversight
-
-## Organisation
-
-**CC-Studio (Creative Communities)**
-- Focus: metadata governance and traceability for creative and technical systems
-
-## Maintainer Responsibilities
-
-- Review and merge pull requests.
-- Ensure policy and documentation integrity.
-- Preserve release traceability and audit readiness.
-- Maintain security and conduct standards.
-
-## Decision Model
-
-- Day-to-day decisions: lazy consensus.
-- High-impact changes: lead maintainer approval.
-
-## Escalation
-
-For security issues, follow `SECURITY.md`.
-For conduct issues, follow `CODE_OF_CONDUCT.md`.
+* Jonathan D.A. Jewell (@hyperpolymath) — repository owner and lead maintainer.
+* Every change to this repository is reviewed and merged by @hyperpolymath,
+  including dependency bumps and CI workflow edits.
+* Direct pushes to the default branch are limited to the owner; all other
+  changes arrive through pull requests and land via squash merge.
+* Security-relevant reports go to the owner account above rather than a
+  public issue.
+* This repository is part of the hyperpolymath estate and follows the
+  estate-wide governance, document-format and CI conventions enforced by
+  hyperpolymath/cicd-suite (the Central Estate CI/CD Audit).
