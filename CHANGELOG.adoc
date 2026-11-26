@@ -10,6 +10,10 @@ All notable changes to this project will be documented in this file.
 * Tag-driven GitHub release automation using `+CHANGELOG.md+` sections.
 * Helper scripts for changelog policy and release-note extraction.
 
+==== Changed
+
+* Dropped banned runtimes and tools from `+mise.toml+`; JS tooling now follows the canonical Bun-first language policy, with `+package.json+`, `+bun.lock+`, `+deno.lock+` and `+pnpm-lock.yaml+` committed (#53).
+
 === [0.1.0] - 2026-04-13
 
 ==== Added
