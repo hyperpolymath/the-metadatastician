@@ -11,8 +11,8 @@ if [[ -z "${changed_files}" ]]; then
   exit 0
 fi
 
-if printf '%s\n' "${changed_files}" | grep -qx 'CHANGELOG.md'; then
-  echo "CHANGELOG.md updated."
+if printf '%s\n' "${changed_files}" | grep -qxE 'CHANGELOG\.(md|adoc)'; then
+  echo "Changelog updated."
   exit 0
 fi
 
